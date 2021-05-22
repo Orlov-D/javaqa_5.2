@@ -6,7 +6,7 @@ public class Main {
         boolean registered = true;
 
         long actual = service.calculate(amount, registered);
-// В принципе нормуль. Старой ошибки нету))) Можно писать, что исправлено)
+//      В принципе нормуль. Старой ошибки нету))) Можно писать, что исправлено)
         long expected = 30;
         boolean passed = expected == actual;
 
